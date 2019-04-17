@@ -130,4 +130,4 @@ public class FXMLDocumentController implements Initializable {
 
 When you run the project it will populate data for you like this
 
-![JAVApreview](https://github.com/bettsharon/javafxComboBox-Table/tableview with combo.png)
+![JAVApreview](tableview.png)
