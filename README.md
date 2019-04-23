@@ -1,6 +1,6 @@
 ## javafxComboBox-Table
 
-first create an fxml file for the table either through scene buider or the code
+First create an fxml file for the table either through the scene builder or the code
 
 ```
 <?import java.lang.*?>
@@ -20,7 +20,7 @@ first create an fxml file for the table either through scene buider or the code
   </children>
 </AnchorPane>
 ```
-create a two classes, one for combobox and another for the data you want to enter. for this case used combobox and table bean
+Create two classes, one for comboBox and another for the data you want to enter for this case, used a comboBox and tableBean
 
 ```public class TableBean {
     String name;
@@ -50,7 +50,9 @@ create a two classes, one for combobox and another for the data you want to ente
     
 }
 ````
-this one extends the main application
+The get is used to get the information and the set to give the information being called
+
+This one extends the main application
 ```
 public class TableCombo extends Application {
     
@@ -72,7 +74,7 @@ public class TableCombo extends Application {
     }
     
 ```
-Edit your controller class so as  to call values from the fxml and java class.
+Edit your controller class so as  to call values from the fxml and Java class.
 
 ```
 public class FXMLDocumentController implements Initializable {
