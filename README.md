@@ -20,7 +20,7 @@ first create an fxml file for the table either through scene buider or the code
   </children>
 </AnchorPane>
 ```
-create a two classesone for combobox and another for the data you want to enter. for this casei used combobox and table bean
+create a two classes, one for combobox and another for the data you want to enter. for this case used combobox and table bean
 
 ```public class TableBean {
     String name;
