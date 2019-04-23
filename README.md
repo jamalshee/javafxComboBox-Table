@@ -114,7 +114,7 @@ public class FXMLDocumentController implements Initializable {
         gender_combo3.getItems().add("Other");
         list.add(new TableBean("Francis", gender_combo3));
 
-        
+        list.add(new TableBean("Bett", gender_combo));
         
         
         
