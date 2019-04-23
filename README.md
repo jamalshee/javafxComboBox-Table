@@ -20,7 +20,7 @@ first create an fxml file for the table either through scene buider or the code
   </children>
 </AnchorPane>
 ```
-create a two classesone for combobox and another for the data you want to enter. for this casei used combobox and table bean
+create a two classes, one for combobox and another for the data you want to enter. for this case used combobox and table bean
 
 ```public class TableBean {
     String name;
@@ -94,6 +94,7 @@ public class FXMLDocumentController implements Initializable {
         gender_combo.getItems().add("Male");
         gender_combo.getItems().add("Female");
         gender_combo.getItems().add("Other");
+        list.add(new TableBean("Bett", gender_combo));
 
         ComboBox<String> gender_combo1 = new ComboBox<>();
         gender_combo1.getItems().add("Male");
@@ -113,7 +114,7 @@ public class FXMLDocumentController implements Initializable {
         gender_combo3.getItems().add("Other");
         list.add(new TableBean("Francis", gender_combo3));
 
-        list.add(new TableBean("Bett", gender_combo));
+        
         
         
         
@@ -129,5 +130,6 @@ public class FXMLDocumentController implements Initializable {
 ```
 
 When you run the project it will populate data for you like this
+as seen in the image
 
 ![JAVApreview](tableview.png)
